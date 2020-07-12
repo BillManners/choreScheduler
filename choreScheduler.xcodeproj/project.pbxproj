@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D20D59A887C0446A819D91F /* Pods_choreScheduler_choreSchedulerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571C48C0884B7F80B5B05890 /* Pods_choreScheduler_choreSchedulerUITests.framework */; };
 		981A7CDA24B9E307001D6599 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981A7CD924B9E307001D6599 /* AppDelegate.swift */; };
 		981A7CDC24B9E307001D6599 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981A7CDB24B9E307001D6599 /* ViewController.swift */; };
 		981A7CDF24B9E307001D6599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981A7CDD24B9E307001D6599 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		981A7CE424B9E308001D6599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981A7CE224B9E308001D6599 /* LaunchScreen.storyboard */; };
 		981A7CEF24B9E308001D6599 /* choreSchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981A7CEE24B9E308001D6599 /* choreSchedulerTests.swift */; };
 		981A7CFA24B9E308001D6599 /* choreSchedulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981A7CF924B9E308001D6599 /* choreSchedulerUITests.swift */; };
+		CF259BC63C078A92B2F6324D /* Pods_choreScheduler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B8C99A85C576CDA7225578 /* Pods_choreScheduler.framework */; };
+		D0E5CA0B602EDA370F5F5318 /* Pods_choreSchedulerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C1A1293F10B16F84982B91 /* Pods_choreSchedulerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FF3DEEA7AD694BF8CFCABA0 /* Pods-choreScheduler-choreSchedulerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-choreScheduler-choreSchedulerUITests.release.xcconfig"; path = "Target Support Files/Pods-choreScheduler-choreSchedulerUITests/Pods-choreScheduler-choreSchedulerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4BFA1E95EC9BA0A5DB1B5213 /* Pods-choreScheduler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-choreScheduler.debug.xcconfig"; path = "Target Support Files/Pods-choreScheduler/Pods-choreScheduler.debug.xcconfig"; sourceTree = "<group>"; };
+		571C48C0884B7F80B5B05890 /* Pods_choreScheduler_choreSchedulerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_choreScheduler_choreSchedulerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		585864A47D1B86C1076A1701 /* Pods-choreSchedulerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-choreSchedulerTests.release.xcconfig"; path = "Target Support Files/Pods-choreSchedulerTests/Pods-choreSchedulerTests.release.xcconfig"; sourceTree = "<group>"; };
+		670BA5E847E465D5A6B0BFAD /* Pods-choreScheduler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-choreScheduler.release.xcconfig"; path = "Target Support Files/Pods-choreScheduler/Pods-choreScheduler.release.xcconfig"; sourceTree = "<group>"; };
 		981A7CD624B9E307001D6599 /* choreScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = choreScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		981A7CD924B9E307001D6599 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		981A7CDB24B9E307001D6599 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		981A7CF524B9E308001D6599 /* choreSchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = choreSchedulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		981A7CF924B9E308001D6599 /* choreSchedulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choreSchedulerUITests.swift; sourceTree = "<group>"; };
 		981A7CFB24B9E308001D6599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2C1A1293F10B16F84982B91 /* Pods_choreSchedulerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_choreSchedulerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A718A739A6C8920D64786EF2 /* Pods-choreScheduler-choreSchedulerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-choreScheduler-choreSchedulerUITests.debug.xcconfig"; path = "Target Support Files/Pods-choreScheduler-choreSchedulerUITests/Pods-choreScheduler-choreSchedulerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2B8C99A85C576CDA7225578 /* Pods_choreScheduler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_choreScheduler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF88D3D517C1DDF0609A12F /* Pods-choreSchedulerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-choreSchedulerTests.debug.xcconfig"; path = "Target Support Files/Pods-choreSchedulerTests/Pods-choreSchedulerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF259BC63C078A92B2F6324D /* Pods_choreScheduler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0E5CA0B602EDA370F5F5318 /* Pods_choreSchedulerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D20D59A887C0446A819D91F /* Pods_choreScheduler_choreSchedulerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B84E533337AD5864F64C533 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BFA1E95EC9BA0A5DB1B5213 /* Pods-choreScheduler.debug.xcconfig */,
+				670BA5E847E465D5A6B0BFAD /* Pods-choreScheduler.release.xcconfig */,
+				A718A739A6C8920D64786EF2 /* Pods-choreScheduler-choreSchedulerUITests.debug.xcconfig */,
+				0FF3DEEA7AD694BF8CFCABA0 /* Pods-choreScheduler-choreSchedulerUITests.release.xcconfig */,
+				DCF88D3D517C1DDF0609A12F /* Pods-choreSchedulerTests.debug.xcconfig */,
+				585864A47D1B86C1076A1701 /* Pods-choreSchedulerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		38CCE709AC53A317A877AB52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2B8C99A85C576CDA7225578 /* Pods_choreScheduler.framework */,
+				571C48C0884B7F80B5B05890 /* Pods_choreScheduler_choreSchedulerUITests.framework */,
+				A2C1A1293F10B16F84982B91 /* Pods_choreSchedulerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		981A7CCD24B9E307001D6599 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,8 @@
 				981A7CED24B9E308001D6599 /* choreSchedulerTests */,
 				981A7CF824B9E308001D6599 /* choreSchedulerUITests */,
 				981A7CD724B9E307001D6599 /* Products */,
+				0B84E533337AD5864F64C533 /* Pods */,
+				38CCE709AC53A317A877AB52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 981A7CFE24B9E308001D6599 /* Build configuration list for PBXNativeTarget "choreScheduler" */;
 			buildPhases = (
+				B234560875D635C465CACE7F /* [CP] Check Pods Manifest.lock */,
 				981A7CD224B9E307001D6599 /* Sources */,
 				981A7CD324B9E307001D6599 /* Frameworks */,
 				981A7CD424B9E307001D6599 /* Resources */,
+				3886BE4F7DCE380FFEB97482 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 981A7D0124B9E308001D6599 /* Build configuration list for PBXNativeTarget "choreSchedulerTests" */;
 			buildPhases = (
+				BCD4F135F8E6DE0B0E4F01D5 /* [CP] Check Pods Manifest.lock */,
 				981A7CE624B9E308001D6599 /* Sources */,
 				981A7CE724B9E308001D6599 /* Frameworks */,
 				981A7CE824B9E308001D6599 /* Resources */,
+				C0F03E21FAFFA6291260DD90 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 981A7D0424B9E308001D6599 /* Build configuration list for PBXNativeTarget "choreSchedulerUITests" */;
 			buildPhases = (
+				B4668AE8A5ABA6812EEEA899 /* [CP] Check Pods Manifest.lock */,
 				981A7CF124B9E308001D6599 /* Sources */,
 				981A7CF224B9E308001D6599 /* Frameworks */,
 				981A7CF324B9E308001D6599 /* Resources */,
+				52BE486D4479539D95ED7548 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +297,126 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3886BE4F7DCE380FFEB97482 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-choreScheduler/Pods-choreScheduler-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-choreScheduler/Pods-choreScheduler-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-choreScheduler/Pods-choreScheduler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52BE486D4479539D95ED7548 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-choreScheduler-choreSchedulerUITests/Pods-choreScheduler-choreSchedulerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-choreScheduler-choreSchedulerUITests/Pods-choreScheduler-choreSchedulerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-choreScheduler-choreSchedulerUITests/Pods-choreScheduler-choreSchedulerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B234560875D635C465CACE7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-choreScheduler-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4668AE8A5ABA6812EEEA899 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-choreScheduler-choreSchedulerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCD4F135F8E6DE0B0E4F01D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-choreSchedulerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0F03E21FAFFA6291260DD90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-choreSchedulerTests/Pods-choreSchedulerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-choreSchedulerTests/Pods-choreSchedulerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-choreSchedulerTests/Pods-choreSchedulerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		981A7CD224B9E307001D6599 /* Sources */ = {
@@ -430,6 +597,7 @@
 		};
 		981A7CFF24B9E308001D6599 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BFA1E95EC9BA0A5DB1B5213 /* Pods-choreScheduler.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +615,7 @@
 		};
 		981A7D0024B9E308001D6599 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 670BA5E847E465D5A6B0BFAD /* Pods-choreScheduler.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +633,7 @@
 		};
 		981A7D0224B9E308001D6599 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCF88D3D517C1DDF0609A12F /* Pods-choreSchedulerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +654,7 @@
 		};
 		981A7D0324B9E308001D6599 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 585864A47D1B86C1076A1701 /* Pods-choreSchedulerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +675,7 @@
 		};
 		981A7D0524B9E308001D6599 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A718A739A6C8920D64786EF2 /* Pods-choreScheduler-choreSchedulerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +695,7 @@
 		};
 		981A7D0624B9E308001D6599 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF3DEEA7AD694BF8CFCABA0 /* Pods-choreScheduler-choreSchedulerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
