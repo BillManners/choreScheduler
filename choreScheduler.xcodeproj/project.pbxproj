@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		981A7CE424B9E308001D6599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981A7CE224B9E308001D6599 /* LaunchScreen.storyboard */; };
 		981A7CEF24B9E308001D6599 /* choreSchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981A7CEE24B9E308001D6599 /* choreSchedulerTests.swift */; };
 		981A7CFA24B9E308001D6599 /* choreSchedulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981A7CF924B9E308001D6599 /* choreSchedulerUITests.swift */; };
+		98FB62E324BB1687003B5151 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FB62E224BB1687003B5151 /* Task.swift */; };
 		CF259BC63C078A92B2F6324D /* Pods_choreScheduler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B8C99A85C576CDA7225578 /* Pods_choreScheduler.framework */; };
 		D0E5CA0B602EDA370F5F5318 /* Pods_choreSchedulerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C1A1293F10B16F84982B91 /* Pods_choreSchedulerTests.framework */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,7 @@
 		981A7CF524B9E308001D6599 /* choreSchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = choreSchedulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		981A7CF924B9E308001D6599 /* choreSchedulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choreSchedulerUITests.swift; sourceTree = "<group>"; };
 		981A7CFB24B9E308001D6599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98FB62E224BB1687003B5151 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		A2C1A1293F10B16F84982B91 /* Pods_choreSchedulerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_choreSchedulerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A718A739A6C8920D64786EF2 /* Pods-choreScheduler-choreSchedulerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-choreScheduler-choreSchedulerUITests.debug.xcconfig"; path = "Target Support Files/Pods-choreScheduler-choreSchedulerUITests/Pods-choreScheduler-choreSchedulerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C2B8C99A85C576CDA7225578 /* Pods_choreScheduler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_choreScheduler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,7 +101,6 @@
 				DCF88D3D517C1DDF0609A12F /* Pods-choreSchedulerTests.debug.xcconfig */,
 				585864A47D1B86C1076A1701 /* Pods-choreSchedulerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +145,7 @@
 				981A7CE024B9E308001D6599 /* Assets.xcassets */,
 				981A7CE224B9E308001D6599 /* LaunchScreen.storyboard */,
 				981A7CE524B9E308001D6599 /* Info.plist */,
+				98FB62E224BB1687003B5151 /* Task.swift */,
 			);
 			path = choreScheduler;
 			sourceTree = "<group>";
@@ -424,6 +426,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				981A7CDC24B9E307001D6599 /* ViewController.swift in Sources */,
+				98FB62E324BB1687003B5151 /* Task.swift in Sources */,
 				981A7CDA24B9E307001D6599 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
